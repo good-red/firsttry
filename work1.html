@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>work1</title>
+  <style>
+    .xw{
+      display: inline-block;
+    }
+  </style>
+</head>
+<body >
+
+<form action="" method="get">
+    <fieldset>
+        <legend>用户登录界面</legend>
+<!--        <span>普通文本</span>-->
+
+        username:<input type="text" placeholder="enter your name" name="1" value="">
+        <hr>
+        gender:<input type="radio" name="sex" value="1">man <input type="radio" name="sex" value="2">woman
+       <hr>
+        hobby: <br>
+                <input type="checkbox" value="1" name="hobby">reading books <br>
+                <input type="checkbox" value="2" name="hobby">watching TV<br>
+                <input type="checkbox" value="3" name="hobby">typing
+        <hr>
+        address:<select name="address">
+                    <option value="1">beijin</option>
+                    <option value="2">tianjin</option>
+                    <option value="3">shanghai</option>
+                    <option value="4">chongqing</option>
+                </select>
+        <hr>
+        password:<input type="password" name="psw" placeholder="please enter your password">
+        <hr>
+        upload your file:
+        <input type="file"  name="myfile">
+        <hr>
+        number:<input type="range" name="num" max="10" min="0">
+    </fieldset>
+<!--    submit-->
+    <input type="submit" name="111112">
+    <input type="reset">
+</form>
+</body>
+</html>
